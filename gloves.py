@@ -16,7 +16,7 @@ def pair_of_gloves(gloves):
         else:
             colors[glove] += 1
 
-    for key, value in colors.items():
+    for value in colors.values():
         number += value // 2
 
     return number
