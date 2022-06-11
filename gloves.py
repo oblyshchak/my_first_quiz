@@ -22,4 +22,4 @@ def pair_of_gloves(gloves):
     return number
 
 if __name__ == "__main__":
-    print(pair_of_gloves(['red', 'red', 'green', 'blue', 'blue']))
+    assert pair_of_gloves(['red', 'red', 'green', 'blue', 'blue']) == 2
